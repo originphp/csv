@@ -1,6 +1,6 @@
 {
-    "name": "originphp/collection",
-    "description": "Origin Collection",
+    "name": "originphp/csv",
+    "description": "Origin CSV",
     "type": "library",
     "keywords": [
         "originphp",
