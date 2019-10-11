@@ -16,6 +16,6 @@ namespace Origin\Csv\Exception;
 
 use Exception;
 
- class FileNotFoundException extends Exception
- {
- }
+class FileNotFoundException extends Exception
+{
+}
