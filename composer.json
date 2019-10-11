@@ -3,7 +3,8 @@
     "description": "Origin Collection",
     "type": "library",
     "keywords": [
-        "originphp"
+        "originphp",
+        "csv"
     ],
     "homepage": "https://www.originphp.com",
     "license": "MIT",
