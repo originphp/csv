@@ -15,7 +15,6 @@ declare(strict_types = 1);
 
 namespace Origin\Csv;
 
-use Origin\Csv\CsvIterator;
 use \InvalidArgumentException;
 use Origin\Csv\Exception\FileNotFoundException;
 
