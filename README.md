@@ -1,7 +1,7 @@
 # CSV
 
 ![license](https://img.shields.io/badge/license-MIT-brightGreen.svg)
-[![build](https://travis-ci.org/originphp/csv.svg?branch=masterhttps://travis-ci.org/originphp/csv.svg?branch=master)](https://travis-ci.org/originphp/csv)
+[![build](https://travis-ci.org/originphp/csv.svg?branch=master)](https://travis-ci.org/originphp/csv)
 [![coverage](https://coveralls.io/repos/github/originphp/csv/badge.svg?branch=master)](https://coveralls.io/github/originphp/csv?branch=master)
 
 The CSV utility makes it easy to work with CSV files.
