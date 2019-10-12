@@ -11,7 +11,7 @@ The CSV utility makes it easy to work with CSV files.
 To install this package
 
 ```linux
-$ composer require origin/csv
+$ composer require originphp/csv
 ```
 
 ## Create CSV from an Array
