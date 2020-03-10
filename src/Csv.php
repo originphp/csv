@@ -30,7 +30,12 @@ class Csv
      * }
      *
      * @param string $filename
-     * @param array $options
+     * @param array $options The option keys are :
+     *  - header: default false. If the csv file contains a header row
+     *  - keys: array of keys to use or set to true to use headers from csv file
+     *  - separator: default:,
+     *  - enclosure: default:"
+     *  - escape: default:\
      * @return \Origin\Utility\Lib\CsvIterator
      */
     public static function process(string $filename, array $options = []) : CsvIterator
