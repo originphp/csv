@@ -2,7 +2,7 @@
 declare(strict_types = 1);
 /**
  * OriginPHP Framework
- * Copyright 2018 - 2019 Jamiel Sharief.
+ * Copyright 2018 - 2020 Jamiel Sharief.
  *
  * Licensed under The MIT License
  * The above copyright notice and this permission notice shall be included in all copies or substantial
@@ -94,7 +94,6 @@ class Csv
      * Converts an array to CSV string
 
      * @param array $data
-     * @param array $options
      * @param array $options The option keys are :
      *  - header: true to use keys from array as headers, or pass array of keys to use
      * @return string

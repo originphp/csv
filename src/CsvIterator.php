@@ -2,7 +2,7 @@
 declare(strict_types = 1);
 /**
  * OriginPHP Framework
- * Copyright 2018 - 2019 Jamiel Sharief.
+ * Copyright 2018 - 2020 Jamiel Sharief.
  *
  * Licensed under The MIT License
  * The above copyright notice and this permission notice shall be included in all copies or substantial
@@ -113,7 +113,7 @@ class CsvIterator implements Iterator, Countable
             $this->options['escape']
         );
      
-        if ($this->row and $this->headers) {
+        if ($this->row && $this->headers) {
             if (count($this->row) !== count($this->headers)) {
                 throw new InvalidArgumentException(sprintf('Column header mistmatch on row %d.', $this->position));
             }
