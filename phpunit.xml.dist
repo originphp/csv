@@ -7,7 +7,7 @@
     backupGlobals="true"
     >
     <testsuites>
-        <testsuite name="Origin CSV Test Suite">
+        <testsuite name="Test Suite">
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
