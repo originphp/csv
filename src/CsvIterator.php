@@ -55,6 +55,12 @@ class CsvIterator implements Iterator, Countable
      * @var array
      */
     protected $headers = [];
+
+    /**
+     * @var string
+     */
+    protected $filename;
+
     /**
      * Constructor
      *
@@ -101,7 +107,7 @@ class CsvIterator implements Iterator, Countable
     /**
      * Return the current element
      *
-     * @return void
+     * @return mixed
      */
     public function current()
     {
