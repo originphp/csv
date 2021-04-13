@@ -17,6 +17,7 @@ namespace Origin\Csv;
 use Iterator;
 use Countable;
 use \InvalidArgumentException;
+use function Origin\Defer\defer;
 
 class CsvIterator implements Iterator, Countable
 {

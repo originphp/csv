@@ -16,6 +16,7 @@ namespace Origin\Csv;
 
 use \InvalidArgumentException;
 use Origin\Csv\Exception\FileNotFoundException;
+use function Origin\Defer\defer;
 
 class Csv
 {
